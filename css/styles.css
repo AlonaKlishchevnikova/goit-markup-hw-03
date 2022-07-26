@@ -55,9 +55,14 @@ body{
     margin-left: auto;
     margin-right: auto;  
 }
+
 .header > .container{
     display: flex;
     align-items: center;
+    
+}
+.header{
+    border-bottom: 1px solid #ECECEC;
 }
 .logo {
     text-decoration: none;
@@ -128,8 +133,8 @@ color: var(--accent-color);
 
 .hero{
     background-color: var(--primary-grey-color);
-    padding-top: 280px;
-    padding-bottom: 280px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
 }
 
@@ -160,8 +165,10 @@ color: var(--accent-color);
         color: var(--secondary-text-color);
         margin-left: auto;
         margin-right: auto;
+        padding: 10px 32px;
+        
 }
-.benefits > .container{
+.benefits{
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -169,8 +176,10 @@ color: var(--accent-color);
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding: 94px 15px;
     gap: 30px;
+}
+.benefits-item{
+    width: 270px;
 }
 .benefits-title{
     font-weight: 700;
@@ -178,11 +187,15 @@ color: var(--accent-color);
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .benefits-text{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+.specialty{
+    padding-bottom: 94px;
 }
 .specialty-title{
     font-weight: 700;
@@ -195,10 +208,12 @@ color: var(--accent-color);
 .container > .specialty-list{
     display: flex;
     gap: 30px;
-    padding-bottom: 94px;
 }
-.container > .team-list{
-    padding-bottom: 94px;
+
+.team{
+padding-top: 94px;
+padding-bottom: 94px;
+
 }
 .team-title{
     font-weight: 700;
@@ -206,7 +221,6 @@ color: var(--accent-color);
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 94px;
     margin-bottom: 50px;
 }
  .team-list{
@@ -220,7 +234,6 @@ color: var(--accent-color);
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
-        margin-top: 30px;
         margin-bottom: 10px;
 }
 .team-player-trade{
@@ -229,7 +242,10 @@ color: var(--accent-color);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    margin-bottom: 30px;
+}
+.discription{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .portfolio{
     padding-bottom: 94px;
@@ -253,6 +269,7 @@ color: var(--accent-color);
     letter-spacing: 0.03em;
     cursor: pointer;
     color: var(--title-text-color);
+    padding: 6px 22px;
 }
 .portfolio-button:active,
 .portfolio-button:hover,
@@ -266,9 +283,7 @@ color: var(--accent-color);
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
-    margin-top: 20px;
-    margin-left: 24px;
-   
+    
     }
     
 .portfolio-list{
@@ -285,16 +300,18 @@ color: var(--accent-color);
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    margin-left: 24px;}
+    }
+.project-name{
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE  ;
+}
 
 .footer{
     background-color: var(--primary-grey-color);
-}
-
-.footer > .container{
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 
 .logo-footer{
     color: var(--secondary-text-color);
@@ -306,18 +323,23 @@ address{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+
 }
 
+.address-list-item{
+    margin-bottom: 9px;
+}
 .address-contect{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-   
+    color: rgba(255, 255, 255, 0.6);  
 }
 
-.footer-address{
+.footer-address
+{
     margin-top: 20px;
+    margin-bottom: 9px;
 }
 
 
